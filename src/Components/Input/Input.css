@@ -1,0 +1,17 @@
+
+.input input {
+    margin-left: 15px;
+    background-color: #f3cdcd;
+    outline: 0;
+    border: 2px solid #858ea8f1;
+    border-radius: 25px;
+    width: 100%;
+  }
+
+  .input input:active {
+      border: 2px solid #2751cff1;
+  }
+
+  .input input:focus {
+    border: 2px solid #1a44c2f1;
+}
