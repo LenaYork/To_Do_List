@@ -1,10 +1,12 @@
 import React from 'react';
 import './List.css';
+import {ToDo} from './ToDo';
 
-export function List() {
+export function List(props) {
+    const renderToDoElement = props.elements.map(elem => <ToDo text={elem} /> )
     return(
         <div className="list">
-            Here will lay the list of todos!
+           {renderToDoElement}
         </div>
     )
 }
